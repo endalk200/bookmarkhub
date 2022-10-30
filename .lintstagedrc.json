@@ -1,6 +1,3 @@
 {
-    "*.{js,jsx,ts,tsx,json,css,scss,md}": [
-        "prettier --write",
-        "yarn nx affected --uncommitted --target=lint"
-    ]
+    "*.{js,jsx,ts,tsx,json,css,scss,md}": ["prettier --write"]
 }
