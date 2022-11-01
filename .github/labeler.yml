@@ -1,0 +1,12 @@
+"📌 area: test":
+  - src/**/*.spec.js
+
+"📌 area: database":
+  - prisma/
+
+"📚 documentation":
+  - any: ["docs/**/*"]
+  - any: ["**/*.md"]
+
+"📌 area: ci":
+  - any: [".github/**/*"]
