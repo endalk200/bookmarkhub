@@ -1,0 +1,39 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+    assignees:
+      - "endalk200"
+
+    reviewers:
+      - "endalk200"
+
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "dependency"
+
+    labels:
+      - "npm"
+      - "dependencies"
+
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+    assignees:
+      - "endalk200"
+
+    reviewers:
+      - "endalk200"
+
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "dependency"
+
+    labels:
+      - "🐋 docker"
+      - "dependencies"
