@@ -1,12 +1,12 @@
 "📌 area: test":
-  - src/**/*.spec.js
+    - src/**/*.spec.js
 
 "📌 area: database":
-  - prisma/
+    - prisma/
 
 "📚 documentation":
-  - any: ["docs/**/*"]
-  - any: ["**/*.md"]
+    - any: ["docs/**/*"]
+    - any: ["**/*.md"]
 
 "📌 area: ci":
-  - any: [".github/**/*"]
+    - any: [".github/**/*"]

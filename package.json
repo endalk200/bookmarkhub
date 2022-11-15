@@ -3,6 +3,8 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
+        "format:check": "prettier --check .",
+        "format:write": "prettier --write .",
         "build": "next build",
         "start:dev": "next dev",
         "postinstall": "prisma generate",

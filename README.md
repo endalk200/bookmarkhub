@@ -5,12 +5,12 @@ You can organize your bookmarks into private or public collections. You can also
 
 ## Tech Stacks
 
-- NextJs
-- NextAuth
-- PlanetScale
-- Prisma
-- tRPC
-- tailwind css
-- React query
-- React hooks form
-- Zod
+-   NextJs
+-   NextAuth
+-   PlanetScale
+-   Prisma
+-   tRPC
+-   tailwind css
+-   React query
+-   React hooks form
+-   Zod
