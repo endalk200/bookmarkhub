@@ -1,7 +1,5 @@
 {
-    "extends": [
-        "@commitlint/config-conventional"
-    ],
+    "extends": ["@commitlint/config-conventional"],
     "rules": {
         "type-enum": [
             2,
@@ -19,14 +17,6 @@
                 "ci"
             ]
         ],
-        "scope-enum": [
-            2,
-            "always",
-            [
-                "api",
-                "auth",
-                "utils"
-            ]
-        ]
+        "scope-enum": [2, "always", ["api", "auth", "utils"]]
     }
 }
