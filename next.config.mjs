@@ -14,9 +14,7 @@ const config = {
         defaultLocale: "en",
     },
     experimental: {
-        fontLoaders: [
-            { loader: '@next/font/google', options: { subsets: ['latin'] } },
-        ],
+        fontLoaders: [{ loader: "@next/font/google", options: { subsets: ["latin"] } }],
     },
 };
 export default config;
